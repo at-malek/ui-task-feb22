@@ -71,6 +71,7 @@
       border-color: #f75581 !important;
       border-width: 0.1pc !important;
       color: #f75581 !important;
+      background-color: white;
       box-shadow: none;
       padding: 15px 40px;
       font-size: 18px;
@@ -117,6 +118,60 @@
       .second-heading-size
       {
         font-size: 6vw !important;
+      }
+
+    }
+
+    .play-btn{
+      color:white;
+      background-color: #f75581;
+    }
+
+    .play-icon:hover
+    {
+      color:#f75581;
+    }
+
+    .play-icon
+    {
+      color:white;
+    }
+
+    .play-btn:hover
+    {
+      background-color: #f6f9fc;
+      color: #f75581;
+    }
+
+    @media screen and (min-width: 1000px)
+    {
+        .overlay-div
+      {
+        position:absolute;
+        top: 68%;
+        right: 60%;
+        max-width: 20%;
+        max-height: 80%;
+        width:350px;
+        height:80px;
+        z-index: 1;
+      }
+
+    }
+
+
+    @media screen and (max-width: 1000px)
+    {
+        .overlay-div
+      {
+        position:absolute;
+        top: 68%;
+        right: 80%;
+        max-width: 20%;
+        max-height: 80%;
+        width:350px;
+        height:80px;
+        z-index: 1;
       }
 
     }
@@ -233,9 +288,26 @@
       <div class="mx-5" style="padding-top:80px; padding-bottom:30px;">
         <div class="container">
           <div class="row">
-            <div class="col-md d-flex justify-content-center align-items-center" style="padding-left: 2%; padding-right:2%; padding-bottom:30px;" >
-              <img src="01.png" style="max-width:70vw;">
+
+
+            <div class="col-md" style="position:relative;">
+              <div class="" style="padding-left: 2%; padding-right:2%; padding-bottom:30px;  padding-top:55px; max-width: 400px;">
+                <img src="01.png" style="max-width:70vw; width: 100%;">
+              </div>
+
+              <div class="overlay-div">
+              <button class="d-flex btn btn-default header-button mt-3" style="background-color: white; font-size: 14px; width:350px; height:80px; color:#0c0c1f; text-align: left;
+              box-shadow: -4px -4px #e42b694b;" href="#">
+                <i class="fa fa-circle fa-3x mr-4" style="color:#ffbfd0"></i>
+                <div class=>
+                  <span><strong style="color:#232f56">New Features</strong></span><br><span style="color:#7389aa;">You have recieved notification</span>
+                </div>
+              </button>
+
+              </div>
+
             </div>
+
             <div class="col-md" style="max-width: 500px; margin-top:4%; padding-bottom: 30px;">
               <div class="row mb-5">
                 <strong style="max-width:250px ;font-size:35px;">Grow your business fast</strong>
@@ -265,6 +337,7 @@
                 </div>
               </div>
             </div>
+
           </div>
         </div>
       </div>
@@ -320,68 +393,71 @@
 
 
 
-    <div  style="color:#232f56; background-color: #f6f9fc;">
-      <div class="mx-5" style="padding-top:80px; padding-bottom:30px;">
+    <div  style="color:#232f56; background-color: white;">
+      <div class="mx-5" style="padding-top:100px; padding-bottom:60px;">
         <div class="container">
           <div class="row">
-            <div class="col-sm" style="margin:auto; text-align:center;">
+            <div class="col-sm" style="margin:auto; text-align:center; padding-bottom: 40px;">
               <h2 class="mb-4"><strong>ITKol - Partner for Your Business</strong></h2>
-              <p style="max-width:800px; margin:auto;">We understand the complexities of modern markets and translate them into al business solutions for automotive, financial, insurance, pharma & life sciences, and real estate with more to come.</p>
-              <button class="btn btn-default rounded-pill pink-button-outline mt-4 mb-5" style="font-size: 14px;" href="#"> <span>Request a Quote</span></button>
+              <p style="max-width:800px; margin:auto; padding-bottom: 30px;">We understand the complexities of modern markets and translate them into al business solutions for automotive, financial, insurance, pharma & life sciences, and real estate with more to come.</p>
+              <button class="btn btn-default rounded-pill pink-button-outline" style="font-size: 14px;" href="#"> <span>Request a Quote</span></button>
             </div>
-            <div class="row">
-              <div class="col-sm">
-               <h1>2500+</h1>
-               <p>We understand the complexities of modern markets</p>
-              </div>
-              <div class="col-sm">
-               <h1>350+</h1>
-               <p>We understand the complexities of modern markets</p>
-              </div>
-              <div class="col-sm">
-               <h1>20+</h1>
-               <p>We understand the complexities of modern markets</p>
-              </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-sm text-center">
+              <h1 style="padding-bottom:20px; font-size: 50px;"><strong>2500+</strong></h1>
+              <p style="max-width: 300px;">We understand the complexities of modern markets</p>
+            </div>
+            <div class="col-sm text-center">
+              <h1 style="padding-bottom:20px; font-size: 50px;"><strong>350+</strong></h1>
+              <p style="max-width: 300px;">We understand the complexities of modern markets</p>
+            </div>
+            <div class="col-sm text-center">
+              <h1 style="padding-bottom:20px; font-size: 50px;"><strong>20+</strong></h1>
+              <p style="max-width: 300px;">We understand the complexities of modern markets</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
 
     <hr>
-    <div  style="color:#232f56; background-color: #f6f9fc;">
-      <div class="mx-5" style="padding-top:15%; padding-bottom:15%;">
+    <div  style="color:#232f56; background-color: white;">
+      <div class="mx-5" style="padding-top:80px; padding-bottom:60px">
         <div class="container">
           <div class="row">
             <div class="col-sm">
-              <h2>Some of Our Great Stuffs</h2>
+              <h2 style="margin:auto; text-align: center; padding-bottom: 60px;"><strong>Some of Our Great Stuffs</strong></h2>
             </div>
           </div>
           <div class="row">
             <div class="col-sm">
-              <img src="02a.png" style="max-width:90%;">
-              <h6>THe Secuirty Risks of Changing Package Owners</h6>
+              <img src="02a.png" style="max-width:95%;">
+              <h6 style="padding-top:20px; padding-bottom:20px;"><strong>The Secuirty Risks of Changing Package Owners</strong></h6>
             </div>
             <div class="col-sm">
-              <img src="02b.png" style="max-width:90%;">
-              <h6>THe Secuirty Risks of Changing Package Owners</h6>
-            </div>
+              <img src="02b.png" style="max-width:95%;">
+              <h6 style="padding-top:20px; padding-bottom:20px;"><strong>The Secuirty Risks of Changing Package Owners</strong></h6>
+           </div>
             <div class="col-sm">
-              <img src="02c.png" style="max-width:90%;">
-              <h6>THe Secuirty Risks of Changing Package Owners</h6>
-            </div>
+              <img src="02c.png" style="max-width:95%;">
+              <h6 style="padding-top:20px; padding-bottom:20px;"><strong>The Secuirty Risks of Changing Package Owners</strong></h6>
+           </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div  style="color:white; background-color: #f6f9fc;background-image: url(03.png);">
-      <div class="mx-5" style="padding-top:15%; padding-bottom:15%;">
+    <div  style="color:white; background-color: #f6f9fc;background-image: url(03.png); background-repeat: no-repeat; background-color: rgba(7, 5, 128, 0.5);  background-size: cover;
+    background-blend-mode: multiply;">
+      <div class="mx-5" style="padding-top:80px; padding-bottom:80px;">
         <div class="container">
           <div class="row">
-            <div class="col-sm">
-                <i class="fa fa-play"></i>
-                <h3>Innovative IT Solution for your Business & Startup</h3>
-                <button class="btn btn-default rounded-pill header-button mx-2" href="#"> <span>Get Started Now</span></button>
+            <div class="col-sm text-center">
+              <button class="btn btn-xl rounded-circle play-btn" href="#"><i class="fa fa-play fa-2x p-3 play-icon" ></i></button>
+
+                <h1 class="second-heading-size" style="padding-top: 50px;padding-bottom: 50px; max-width: 700px; margin: auto;"><strong>Innovative IT Solution for your Business & Startup</strong></h1>
+                <button class="btn btn-default rounded-pill pink-button-outline" href="#"> <span>Get Started Now</span></button>
             </div>
           </div>
 
