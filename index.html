@@ -42,6 +42,18 @@
       }
     }
 
+    @media screen and (max-width: 1188px)
+    {
+
+      #navbarcontents
+      {
+        position: absolute;
+        z-index: 1;
+        top:80%;
+        right:2%;
+      }
+    }
+
     .header-size-position{
         width: 80vw;
         max-width: 1200px;
@@ -143,12 +155,12 @@
       color: #f75581;
     }
 
-    @media screen and (min-width: 1000px)
+    @media screen and (min-width: 900px)
     {
         .overlay-div
       {
         position:absolute;
-        top: 68%;
+        top: 45%;
         right: 60%;
         max-width: 20%;
         max-height: 80%;
@@ -160,7 +172,7 @@
     }
 
 
-    @media screen and (max-width: 1000px)
+    @media screen and (max-width: 900px)
     {
         .overlay-div
       {
@@ -192,13 +204,22 @@
       background-size: auto 60%;
     }
 
+
+    @media screen and (min-width: 695px)
+    {
+      .footer-flex-itemx{
+        padding-left:70px;
+      }
+    }
+
+
       </style>
   </head>
   <body>
 
     <div class="bg-grad">
 
-      <div class="bg-img header-size-position" style="margin:0 auto;">
+      <div class="bg-img header-size-position" style="margin:0 auto;position: relative;">
 
         <nav class="navbar navbar-expand-xl navbar-dark bg-transparent">
 
@@ -312,13 +333,13 @@
               </div>
 
               <div class="overlay-div">
-              <button class="d-flex btn btn-default header-button mt-3" style="background-color: white; font-size: 14px; width:350px; height:80px; color:#0c0c1f; text-align: left;
-              box-shadow: -4px -4px #e42b694b;" href="#">
-                <i class="fa fa-circle fa-3x mr-4" style="color:#ffbfd0"></i>
-                <div class=>
-                  <span><strong style="color:#232f56">New Features</strong></span><br><span style="color:#7389aa;">You have recieved notification</span>
-                </div>
-              </button>
+                <button class="d-flex btn btn-default header-button mt-3" style="background-color: white; font-size: 14px; width:350px; height:80px; color:#0c0c1f; text-align: left;
+                box-shadow: -4px -4px #e42b694b;" href="#">
+                  <i class="fa fa-circle fa-3x mr-4" style="color:#ffbfd0"></i>
+                  <div class=>
+                    <span><strong style="color:#232f56">New Features</strong></span><br><span style="color:#7389aa;">You have recieved notification</span>
+                  </div>
+                </button>
 
               </div>
 
@@ -484,58 +505,15 @@
 
     <div  style="color:#232f56; background-color: #f6f9fc;">
       <div class="mx-5" style="padding-top:80px; padding-bottom:10px;">
-        <!-- <div class="container">
-          <div class="row">
-            <div class="col-sm">
-              <img src="logo.png">
-              <p>Duis aute inure dolor inasfa reprehenderit in voluptatc veit esse cilium</p>
-              <h3>10 (87) 738-3940</h3>
-              <p>contact@it-kol.com</p>
-            </div>
 
-            <div class="col-sm">
-                <h4>Navigation</h4>
-                <a href="#">Home</a><br>
-                <a href="#">About</a><br>
-                <a href="#">Services</a><br>
-                <a href="#">Blog</a><br>
-                <a href="#">Contact</a><br>
-            </div>
-
-            <div class="col-sm">
-              <h4>Services</h4>
-              <a href="#">Drone Mapping</a><br>
-              <a href="#">Real State</a><br>
-              <a href="#">Commercial</a><br>
-              <a href="#">Construction</a><br>
-            </div>
-
-            <div class="col-sm">
-              <h4>Subsribe newsletter</h4>
-              <p>Subsribe our newsletter to get updates about our services and offers.</p>
-              <form>
-                <div class="form-group">
-                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
-                </div>
-              </form>
-              <i class="fa fa-facebook"></i>
-              <i class="fa fa-instagram"></i>
-              <i class="fa fa-linkedin"></i>
-              <i class="fa fa-youtube"></i>
-            </div>
-          </div>
-
-        </div> -->
-
-
-        <div class="footer-flex">
+        <div class="footer-flex" style="max-width:1300px; margin:auto">
           <div class="footer-flex-item" style="max-width: 350px; margin-bottom:80px;">
               <img src="logo.png">
               <p style="padding-top:50px; padding-bottom: 30px;">Duis aute inure dolor inasfa reprehenderit in voluptatc veit esse cilium</p>
               <h3 style="padding-bottom: 20px"><strong>10 (87) 738-3940</strong></h3>
               <p><a href="#"><strong style="text-decoration: underline; color:#0c0c1f;">contact@it-kol.com</strong></a></p>
           </div>
-          <div class="footer-flex-item" style=" max-width:350px; min-width:300px; margin-bottom:80px; padding-left:70px; padding-right:70px;">
+          <div class="footer-flex-itemx" style=" max-width:360px; min-width:300px; margin-bottom:80px;  padding-right:70px;">
               <h3><strong>Navigation</strong></h3>
               <a style="display: block; padding-top: 35px; color:#5c5c8d" href="#">Home</a>
               <a style="display: block; padding-top: 20px; color:#5c5c8d" href="#">About</a>
@@ -543,7 +521,7 @@
               <a style="display: block; padding-top: 20px; color:#5c5c8d" href="#">Blog</a>
               <a style="display: block; padding-top: 20px; color:#5c5c8d" href="#">Contact</a>
           </div>
-          <div class="footer-flex-item" style=" max-width:350px; min-width:300px; padding-left:70px; padding-right:70px; margin-bottom:80px;">
+          <div class="footer-flex-itemx" style=" max-width:360px; min-width:300px; ; padding-right:70px; margin-bottom:80px;">
             <h3><strong>Services</strong></h3>
             <a style="display: block; padding-top: 35px; color:#5c5c8d" href="#">Drone Mapping</a>
             <a style="display: block; padding-top: 20px; color:#5c5c8d" href="#">Real State</a>
