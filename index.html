@@ -176,6 +176,22 @@
 
     }
 
+    .footer-flex
+    {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      /* min-height: 500px; */
+    }
+
+    .add-arrow
+    {
+      background-image: url('arrow.png');
+      background-position: 97% 50%;
+      background-repeat: no-repeat;
+      background-size: auto 60%;
+    }
+
       </style>
   </head>
   <body>
@@ -467,8 +483,8 @@
 
 
     <div  style="color:#232f56; background-color: #f6f9fc;">
-      <div class="mx-5" style="padding-top:15%; padding-bottom:15%;">
-        <div class="container">
+      <div class="mx-5" style="padding-top:80px; padding-bottom:10px;">
+        <!-- <div class="container">
           <div class="row">
             <div class="col-sm">
               <img src="logo.png">
@@ -508,7 +524,53 @@
               <i class="fa fa-youtube"></i>
             </div>
           </div>
-          <div class="row">
+
+        </div> -->
+
+
+        <div class="footer-flex">
+          <div class="footer-flex-item" style="max-width: 350px; margin-bottom:80px;">
+              <img src="logo.png">
+              <p style="padding-top:50px; padding-bottom: 30px;">Duis aute inure dolor inasfa reprehenderit in voluptatc veit esse cilium</p>
+              <h3 style="padding-bottom: 20px"><strong>10 (87) 738-3940</strong></h3>
+              <p><a href="#"><strong style="text-decoration: underline; color:#0c0c1f;">contact@it-kol.com</strong></a></p>
+          </div>
+          <div class="footer-flex-item" style=" max-width:350px; min-width:300px; margin-bottom:80px; padding-left:70px; padding-right:70px;">
+              <h3><strong>Navigation</strong></h3>
+              <a style="display: block; padding-top: 35px; color:#5c5c8d" href="#">Home</a>
+              <a style="display: block; padding-top: 20px; color:#5c5c8d" href="#">About</a>
+              <a style="display: block; padding-top: 20px; color:#5c5c8d" href="#">Services</a>
+              <a style="display: block; padding-top: 20px; color:#5c5c8d" href="#">Blog</a>
+              <a style="display: block; padding-top: 20px; color:#5c5c8d" href="#">Contact</a>
+          </div>
+          <div class="footer-flex-item" style=" max-width:350px; min-width:300px; padding-left:70px; padding-right:70px; margin-bottom:80px;">
+            <h3><strong>Services</strong></h3>
+            <a style="display: block; padding-top: 35px; color:#5c5c8d" href="#">Drone Mapping</a>
+            <a style="display: block; padding-top: 20px; color:#5c5c8d" href="#">Real State</a>
+            <a style="display: block; padding-top: 20px; color:#5c5c8d" href="#">Commercial</a>
+            <a style="display: block; padding-top: 20px; color:#5c5c8d" href="#">Construction</a>
+        </div>
+
+        <div class="footer-flex-item" style=" max-width:350px; margin-bottom:80px;">
+          <h3 style="padding-bottom:30px"><strong>Subscribe newsletter</strong></h3>
+          <p style="padding-bottom:15px">Subsribe our newsletter to get updates about our services and offers.</p>
+
+            <form>
+              <div class="form-group mb-4">
+                <input type="email" class="form-control add-arrow" style="border: 1px solid #232f56;
+                border-radius: 35px;  padding: 12px 20px; margin: 8px 0; height: 55px;" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+              </div>
+            </form>
+
+            <i class="fa fa-facebook fa-2x mr-5"></i>
+            <i class="fa fa-instagram fa-2x mr-5"></i>
+            <i class="fa fa-linkedin fa-2x mr-5"></i>
+            <i class="fa fa-youtube fa-2x"></i>
+          </div>
+        </div>
+
+        <div class="footer-flex">
+          <div class="footer-flex-item" style="padding-top:80px;">
             <p>Copyright <i class="fa fa-copyright"></i>2022 All rights reserved | This template is made with <i class="fa fa-heart"></i> by <a href="#">Devsinc</a></p>
           </div>
         </div>
